@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--ICS2O-Unit3-03-HTML-Volume_of_Sphere-->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Volume of a Sphere, with JS">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Ryan-Shaw-2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Volume of a Sphere, with JS </title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Volume of a Sphere, with JS</h1>
+    <h3>Formula</h3>
+    <h4>V = (4 / 3) x π x r³</h4>
+    <p>Please enter in the radius: </p>
+    <p>
+      <form action="javascript:calculateClicked()">
+        <label for="radius">Radius: </label>
+        <input type="number" step=".01" id="radius" placeholder="e.g 5">
+        <label for="unit">cm</label><br><br>
+        <input type="submit" value="Calclulate">
+      </form>
+    </p>
+    <div id="user-input">
+      <div id="user-volume"></div>
+    </div>
+  </body>
+</html>
